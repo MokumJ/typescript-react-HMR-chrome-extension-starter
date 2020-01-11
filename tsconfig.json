@@ -1,23 +1,24 @@
 {
-  "compilerOptions": {
-    "outDir": "./dist/",
-    "sourceMap": true,
-    "module": "commonjs",
-    "target": "es6",
-    "lib": ["dom", "esnext"],
-    // "allowJs": false,
-    "jsx": "react",
-    // "rootDirs": ["src", "stories"],
-    // "baseUrl": "src",
-    "incremental": true,
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true
-  },
-  "include": ["./src/**/*"]
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "module": "commonjs",
+        "target": "es6",
+        "lib": ["dom", "esnext"],
+        "types": ["react", "jest", "chrome"],
+        // "allowJs": false,
+        "jsx": "react",
+        // "rootDirs": ["src", "stories"],
+        // "baseUrl": "src",
+        "incremental": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictNullChecks": false,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "include": ["./src/**/*"]
 }

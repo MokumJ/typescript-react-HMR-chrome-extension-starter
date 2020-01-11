@@ -24,7 +24,7 @@ Then you can explore the tasks you can run with:
 
 `gulp dev`
 
-Dont be afraid of going in and changing things to how you like them. The starting point for all of this should be `scripts/index.ts`
+Dont be afraid of going in and changing things to how you like them. The starting point for all of this should be `scripts/index.tsx`
 
 ## Prettier, Husky, Pretty-Quick
 

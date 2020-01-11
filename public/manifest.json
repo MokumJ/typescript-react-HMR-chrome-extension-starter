@@ -1,27 +1,25 @@
 {
-  "manifest_version": 2,
-  "name": "Typescript React HMR Chrome Extension Starter",
-  "description": "A good starting point for building chrome extensions",
-  "version": "1.0",
-  "icons": {
-    "16": "images/logo-16x16.png",
-    "48": "images/logo-48x48.png",
-    "128": "images/logo-128x128.png"
-  },
-  "options_page": "options.html",
-  "browser_action": {
-    "default_icon": "images/logo-128x128.png",
-    "default_popup": "browserAction.html"
-  },
-  "background": {
-    "page": "background.html"
-  },
-  "content_scripts": [
-    {
-      "matches": ["https://*/*", "http://*/*"],
-      "js": ["contentScript.js"]
-    }
-  ],
-  "permissions": [],
-  "content_security_policy": "script-src 'self'; object-src 'self'"
+    "manifest_version": 2,
+    "name": "kami-extension",
+    "description": "Your sustainable shop assistance",
+    "version": "0.1.0",
+    "icons": {
+        "128": "images/Kami-favi.png"
+    },
+    "options_page": "options.html",
+    "browser_action": {
+        "default_icon": "images/kami-favi-disabled.png",
+        "default_popup": "browserAction.html"
+    },
+    "background": {
+        "page": "background.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["contentScript.js"]
+        }
+    ],
+    "permissions": ["notifications", "activeTab"],
+    "content_security_policy": "script-src 'self'; object-src 'self'"
 }
